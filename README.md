@@ -22,7 +22,12 @@ x install fabulous
 - **Latest**: `0.4.0` (2021-07-01)
 - **Last commit**: 2025-08-24
 - **Assets in release**: 1
-- **Published**: 2021-07-01T13:15:19Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [fabulous-0.4.0.tar.gz](https://github.com/jart/fabulous/releases/download/0.4.0/fabulous-0.4.0.tar.gz) | 573.6 KiB | `native/unknown` |
 
 ## Popularity
 
@@ -57,8 +62,8 @@ Total: **6,157** lines of code across **44** files in the top 5 languages.
 Install metadata for fabulous lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `fabulous` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/fabulous.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/fabulous.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:28:52Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:08:26Z._
