@@ -1,4 +1,60 @@
-- repo: raspbian_stable
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: fabulous
+  binnames:
+    - python3-fabulous
+  visiblename: fabulous
+  version: 0.4.0
+  origversion: 0.4.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: fabulous
+  binnames:
+    - python3-fabulous
+  visiblename: fabulous
+  version: 0.4.0
+  origversion: 0.4.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: fabulous
+  binnames:
+    - python3-fabulous
+  visiblename: fabulous
+  version: 0.3.0
+  origversion: 0.3.0+dfsg1-8
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: fabulous
+  binnames:
+    - python3-fabulous
+  visiblename: fabulous
+  version: 0.4.0
+  origversion: 0.4.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: kali_rolling
   subrepo: main
   srcname: fabulous
   binnames:
@@ -12,22 +68,8 @@
     - jcc@debian.org
   categories:
     - misc
-- repo: raspbian_testing
+- repo: pardus_21
   subrepo: main
-  srcname: fabulous
-  binnames:
-    - python3-fabulous
-  visiblename: fabulous
-  version: 0.4.0
-  origversion: 0.4.0+dfsg1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: debian_11
-  subrepo: bullseye/main
   srcname: fabulous
   binnames:
     - python3-fabulous
@@ -48,6 +90,32 @@
   visiblename: fabulous
   version: 0.4.0
   origversion: 0.4.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: aur
+  srcname: fabulous-git
+  binname: fabulous-git
+  visiblename: fabulous-git
+  version: 3.12.3.r0.ge563623
+  origversion: 3.12.3.r0.ge563623-1
+  status: rolling
+  summary: A WYSIWYG notebook with an exciting paper and literature management system.
+  maintainers:
+    - zxp19821005@aur
+  licenses:
+    - GPL-3.0-only
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: fabulous
+  binnames:
+    - python3-fabulous
+  visiblename: fabulous
+  version: 0.3.0
+  origversion: 0.3.0+dfsg1-8
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -122,90 +190,6 @@
     - jcc@debian.org
   categories:
     - python
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: fabulous
-  binnames:
-    - python3-fabulous
-  visiblename: fabulous
-  version: 0.3.0
-  origversion: 0.3.0+dfsg1-8
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: fabulous
-  binnames:
-    - python3-fabulous
-  visiblename: fabulous
-  version: 0.4.0
-  origversion: 0.4.0+dfsg1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: kali_rolling
-  subrepo: main
-  srcname: fabulous
-  binnames:
-    - python3-fabulous
-  visiblename: fabulous
-  version: 0.4.0
-  origversion: 0.4.0+dfsg1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: pardus_21
-  subrepo: main
-  srcname: fabulous
-  binnames:
-    - python3-fabulous
-  visiblename: fabulous
-  version: 0.3.0
-  origversion: 0.3.0+dfsg1-8
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: fabulous
-  binnames:
-    - python3-fabulous
-  visiblename: fabulous
-  version: 0.4.0
-  origversion: 0.4.0+dfsg1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: fabulous
-  binnames:
-    - python3-fabulous
-  visiblename: fabulous
-  version: 0.4.0
-  origversion: 0.4.0+dfsg1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - jcc@debian.org
-  categories:
-    - misc
 - repo: pureos_amber
   subrepo: amber/main
   srcname: fabulous
@@ -249,6 +233,34 @@
   categories:
     - python
 - repo: raspbian_oldstable
+  subrepo: main
+  srcname: fabulous
+  binnames:
+    - python3-fabulous
+  visiblename: fabulous
+  version: 0.4.0
+  origversion: 0.4.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: fabulous
+  binnames:
+    - python3-fabulous
+  visiblename: fabulous
+  version: 0.4.0
+  origversion: 0.4.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
   subrepo: main
   srcname: fabulous
   binnames:
@@ -409,6 +421,20 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: fabulous
+  binnames:
+    - python3-fabulous
+  visiblename: fabulous
+  version: 0.4.0
+  origversion: 0.4.0+dfsg1-1build1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: fabulous
   binnames:
     - python3-fabulous
